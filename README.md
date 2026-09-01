@@ -1,5 +1,5 @@
 # Deep Learning University Project
-# Multi-Kernel 1D CNN model
+*Multi-Kernel 1D CNN model*
 
 Antimicrobial peptides (AMPs) are short chains of amino acids, typically around 5
 to 50 residues long, that can inhibit or kill microorganisms such as bacteria, fungi,
