@@ -25,3 +25,5 @@ both model development and evaluation. The file contains two columns: FASTA,
 which contains the peptide amino acid sequences using standard single-letter
 amino acid codes, and Label, where 1 indicates an antimicrobial peptide (AMP)
 and 0 indicates a non-AMP
+
+After further review, I came to see that I mistakenly used the test set for tuning purposes, when I should have compared my different models on the validation set only. After selecting my final model based on the stopping criterion, I should have retrained it on the train and valid dataset then evaluated it on the test set.
